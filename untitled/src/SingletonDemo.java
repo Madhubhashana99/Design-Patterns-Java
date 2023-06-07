@@ -7,5 +7,9 @@ public class SingletonDemo {
         //Lazy Singleton
         LazySingleton lazy = LazySingleton.getInstance();
         lazy.showMessage();
+
+        //Static Singleton
+        StaticSingleton stat = StaticSingleton.getInstance();
+        stat.showMessage();
     }
 }
