@@ -15,5 +15,9 @@ public class SingletonDemo {
         //Thread Safe Singleton
         ThreadSafeSingleton tss = ThreadSafeSingleton.getInstance();
         tss.showMessage();
+
+        //Bill Pugh Singleton
+        BillPughSingleton bps = BillPughSingleton.getInstance();
+        bps.showMessage();
     }
 }
