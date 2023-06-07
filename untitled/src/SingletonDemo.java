@@ -11,5 +11,9 @@ public class SingletonDemo {
         //Static Singleton
         StaticSingleton stat = StaticSingleton.getInstance();
         stat.showMessage();
+
+        //Thread Safe Singleton
+        ThreadSafeSingleton tss = ThreadSafeSingleton.getInstance();
+        tss.showMessage();
     }
 }
