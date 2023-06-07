@@ -1,4 +1,4 @@
-package factory;
+package Factory;
 
 public class Circle implements Shape{
     @Override

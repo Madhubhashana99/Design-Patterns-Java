@@ -1,4 +1,4 @@
-package factory;
+package Factory;
 
 public class ShapeFactory {
     public Shape getShape(String name){
