@@ -1,3 +1,5 @@
+package singleton;
+
 public class StaticSingleton {
     private static StaticSingleton ss;
 
